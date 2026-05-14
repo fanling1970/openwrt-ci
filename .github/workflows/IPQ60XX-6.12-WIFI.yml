@@ -17,7 +17,7 @@ on:
 env:
   REPO_URL: https://github.com/LiBwrt/openwrt-6.x.git  # OpenWrt 源码地址
   REPO_BRANCH: main-nss                                # 使用带 NSS 的分支
-  CONFIG_FILE: configs/ipq60xx-6.12-wifi.config         # 你的配置文件路径
+  CONFIG_FILE: ipq60xx-6.12-wifi.config          # 你的配置文件路径
   CACHE_TOOLCHAIN: true                                 # 是否缓存工具链（加速编译）
   UPLOAD_BIN_DIR: false                                 # 是否上传 bin 目录（一般不用）
   FIRMWARE_RELEASE: true                                # 是否发布到 Release

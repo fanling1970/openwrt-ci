@@ -3,9 +3,7 @@ name: IPQ60XX-JDCLOUD-RE-CS-02-6.12
 # ========== 触发方式 ==========
 on:
   workflow_dispatch:        # 手动触发编译
-  schedule:
-    - cron: '0 19 * * *'    # 每天 UTC 19:00 自动编译
-
+ 
 # ========== 全局环境变量 ==========
 env:
   REPO_URL: https://github.com/LiBwrt/openwrt-6.x.git   # LiBwrt OpenWrt 主源码
